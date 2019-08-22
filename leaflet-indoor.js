@@ -201,7 +201,7 @@ L.Control.Level = L.Control.extend({
     includes: L.Mixin.Events,
 
     options: {
-        position: 'bottomright',
+        position: 'topleft', //orginalnie bottomright
 
         // used to get a unique integer for each level to be used to order them
         parseLevel: function(level) {
